@@ -1,3 +1,4 @@
+//testing i like stitch
 //we are running the code in module mode
 //this taps on the CDN version of the firebase SDK
 import {
