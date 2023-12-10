@@ -1,4 +1,7 @@
 //testing i like stitch
+
+// features: log in/sign up, log out and sign in to diff acct, email verification, leaderboard (?), user profile, locations pinned
+
 //we are running the code in module mode
 //this taps on the CDN version of the firebase SDK
 import {
