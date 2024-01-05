@@ -202,27 +202,6 @@ a:hover {
       }
 
 /** home content **/
-.homecontent1 {
-  justify-content: start;
-  flex-direction: column;
-  width:700px;
-  height: 300px;
-  margin-left: 90px;
-  padding: 30px;
-  border-radius: 10px;
-  background-color:rgb(255, 255, 255);
-  text-wrap:wrap;
-}
-
-.homecontent2 {
-  width:700px;
-  height: 300px;
-  margin-left: 900px;
-  padding: 30px;
-  border-radius: 10px;
-  background-color:rgb(255, 255, 255);
-  text-wrap:wrap;
-}
 
 .parent {
   margin: 10px;
@@ -236,4 +215,5 @@ a:hover {
   border-radius: 10px;
   background-color:rgb(255, 255, 255);
   width: 40%; 
+  
 }
