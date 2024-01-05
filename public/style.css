@@ -33,12 +33,10 @@ a:hover {
 
 
 
-/* home - carousel*/
-
-
 
 
 /*making hamburger */
+
 
 .nav{
   display: flex;
@@ -75,12 +73,12 @@ a:hover {
   transition: 0.3s;
 }
 .hamburger:before,
-.hamburger::after{
+.hamburger:after{
   content: "";
   position: absolute;
   height: 4px;
   right: 0;
-  background: #485b79;
+  background: rgb(255, 201, 64);
   border-radius: 10px;
   transition: 0.3s;
 }
@@ -100,24 +98,25 @@ a:hover {
   cursor: pointer;
   opacity: 0;
 }
+
 .hamburger,
 .toggle-menu{
   display: none;
 }
-.nav input:checked ~ .hamburger{
+.menu input:checked ~ .hamburger{
   background: transparent;
 }
-.nav input:checked ~ .hamburger::before{
+.menu input:checked ~ .hamburger:before{
   top: 0;
   transform: rotate(-45deg);
   width: 30px;
 }
-.nav input:checked ~ .hamburger::after{
+.menu input:checked ~ .hamburger::after{
   top: 0;
   transform: rotate(45deg);
   width: 30px;
 }
-.nav input:checked ~ .nav{
+.menu input:checked ~ .nav{
   right: 0;
   box-shadow: -20px 0 40px #485b79;
 }
@@ -128,6 +127,7 @@ a:hover {
   .toggle-menu{
       display: block;
   } 
+
   .nav{
       justify-content: start;
       flex-direction: column;
