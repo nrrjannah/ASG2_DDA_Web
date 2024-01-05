@@ -15,9 +15,6 @@ h1 {color: #E4A010;}
     align-items: center;
   }
 
-li {
-    float: left;
-}
 
 .nav a {
     display: block;
@@ -32,7 +29,11 @@ a:hover {
 }
 
 
+/* for paragraphs */
 
+p{
+  color: rgb(255, 201, 64)
+}
 
 
 /*making hamburger */
@@ -66,7 +67,7 @@ a:hover {
   position: relative;
   width: 30px;
   height: 4px;
-  background: #485b79;
+  background: rgb(255, 201, 64);
   border-radius: 10px;
   cursor: pointer;
   z-index: 2;
@@ -146,7 +147,9 @@ a:hover {
   .nav a:hover{
       padding: 30px;
       font-size: 24px;
-      box-shadow: 0 1px rgb(255, 201, 64) inset;
+      box-shadow: 0 1px #485b79 inset;
+      color: yellow;
+
   }
 }
 
