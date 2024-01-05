@@ -223,3 +223,17 @@ a:hover {
   background-color:rgb(255, 255, 255);
   text-wrap:wrap;
 }
+
+.parent {
+  margin: 10px;
+  padding: 30px;
+  text-align: center;
+}
+.child {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 30px;
+  border-radius: 10px;
+  background-color:rgb(255, 255, 255);
+  width: 40%; 
+}
