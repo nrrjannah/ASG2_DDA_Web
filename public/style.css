@@ -227,6 +227,7 @@ p{
   margin: 10px;
   padding: 30px;
   text-align: center;
+  
 }
 .child {
   display: inline-block;
@@ -235,5 +236,22 @@ p{
   border-radius: 10px;
   background-color:rgb(255, 255, 255);
   width: 40%; 
+  height: 200px;
+}
+
+/**about us **/
+.abtusparent {
+  margin: 10px;
+  padding: 30px;
+  text-align: center;
   
+}
+.abtuschild {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 30px;
+  border-radius: 10px;
+  background-color:rgb(247, 232, 187);
+  width: 40%; 
+  height: 200px;
 }
