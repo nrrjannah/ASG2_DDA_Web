@@ -45,21 +45,26 @@
 
 <!-- Slideshow container -->
 <div class="slider">
-  <span id="slide-1"></span>
-  <span id="slide-2"></span>
-  <span id="slide-3"></span>
-  <div class="image-container">
-    <img src="img1.jpg" class="slide" width="1000" height="600" />
-    <img src="img2.jpg" class="slide" width="1000" height="600" />
-    <img src="img3.jpg" class="slide" width="1000" height="600" />
+ 
+  <div class="Slides fade">
+    <img src="img1.jpg" style="width:100%">
   </div>
-  <div class="buttons">
-    <a href="#slide-1"></a>
-    <a href="#slide-2"></a>
-    <a href="#slide-3"></a>
+  <div class="Slides fade">
+    <img src="img2.jpg" style="width:100%">
   </div>
+  <div class="Slides fade">
+    <img src="img3.jpg" style="width:100%">
+  </div>
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
 </div>
 
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
 
 </body>
 </html>
