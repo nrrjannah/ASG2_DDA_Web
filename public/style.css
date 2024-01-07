@@ -33,7 +33,7 @@ a:hover {
 /* for paragraphs */
 
 p{
-  color: rgb(255, 201, 64)
+  color:#E4A010;
 }
 
 
@@ -244,7 +244,6 @@ p{
   margin: 10px;
   padding: 30px;
   text-align: center;
-  
 }
 .abtuschild {
   display: inline-block;
@@ -254,4 +253,9 @@ p{
   background-color:rgb(247, 232, 187);
   width: 40%; 
   height: 200px;
+}
+.textbox {
+  margin: 10px;
+  padding: 30px;
+  text-align: center;
 }
