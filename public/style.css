@@ -5,7 +5,10 @@ body {
 h1 {color: #E4A010;}
 h6 { color: yellow;}
 
+.image{
+  width: 100%;
 
+}
 /* nav */
 .nav {
     list-style-type: none;
