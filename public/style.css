@@ -2,7 +2,7 @@ body {
     background-color: #750e27;
 }
 
-h1 {color: #E4A010;}
+h1,h2 {color: #E4A010;}
 h6 { color: yellow;}
 
 .image{
@@ -237,9 +237,11 @@ p{
   vertical-align: middle;
   padding: 30px;
   border-radius: 10px;
-  background-color:rgb(255, 255, 255);
+  background-color:rgb(247, 232, 187);
   width: 40%; 
-  height: 200px;
+  height: 220px;
+  font-size: 15px;
+  
 }
 
 /**about us **/
@@ -256,12 +258,66 @@ p{
   background-color:rgb(247, 232, 187);
   width: 40%; 
   height: 200px;
+  font-size: 21px;
 }
+
+#abtustext1,#abtustext2 {
+  padding: 60px 5%;
+
+}
+
 .textbox {
   margin: 10px;
   padding: 30px;
   text-align: center;
 }
+
+/*about us page ticket btn*/
+.abtusticket {
+  
+  font-size: 34px;
+  color: rgb(255, 201, 64);
+  background-color:#940c34;
+  border-radius: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  
+}
+
+.abtusticketA {
+  color: rgb(255, 201, 64);
+
+}
+
+.externalTable {
+  color: rgb(255, 201, 64);
+  margin-bottom: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  
+}
+
+#externalTableText {
+  margin-left: 40px;
+  width:60%;
+  text-align: left;
+}
+
+#externalTableImg{
+  margin-right: 10%;
+  width: 20%;
+  text-align: left;
+}
+
+
+
+
+
+
+
 
 /* footer */
 .footer {
@@ -271,4 +327,10 @@ p{
   color: black;
   padding-top: 65px;
   padding-left: 40px;
+  /*to make footer stick to bottom of the screen*/
+  position:auto;
+
+  bottom: 0;
+
+
 }
