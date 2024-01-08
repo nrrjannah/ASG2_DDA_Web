@@ -1,4 +1,3 @@
-//testing i like stitch
 
 // features: log in/sign up, log out and sign in to diff acct, email verification, leaderboard (?), user profile, locations pinned
 
